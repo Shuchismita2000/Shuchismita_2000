@@ -9,7 +9,7 @@
 
 ## 🚀 About Me
 
-I'm a passionate Data Scientist with 3.5 years of experience in transforming complex data into actionable insights. My journey in data science is driven by a deep curiosity for understanding patterns and solving real-world problems through AI/ML solutions.
+I'm a Data Scientist with 4+ years of experience transforming complex data into actionable insights. My work is driven by curiosity for patterns and a focus on solving real business problems.
 
 ## 💡 Core Competencies
 
@@ -27,7 +27,7 @@ I'm a passionate Data Scientist with 3.5 years of experience in transforming com
 
 ## 🌟 Recent Achievements
 
-- Developed Agentic-RAG Chatbot using Azure AI Foundry for Healthcare domain
+- Cut a forecasting pipeline's execution time from 8 hours to ~1 hour, with MAPE under 10% for most brands (Fractal Analytics, ongoing)
 - Implemented end-to-end ML solutions in Azure ML Studio
 - Created dynamic pricing models for optimized business strategies
 - Built market mix models for improved marketing ROI
