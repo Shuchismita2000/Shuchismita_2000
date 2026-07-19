@@ -1,364 +1,466 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Science Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shuchismita Mallick — Data Scientist</title>
+<meta name="description" content="Shuchismita Mallick — Data Scientist specializing in analytics, agentic AI, and decision intelligence. 4+ years turning data into decisions.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&family=Caveat:wght@500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <nav class="navbar">
-        <div class="nav-content">
-            <a href="#home" class="nav-logo">
-                <button class="nav-toggle" aria-label="Toggle navigation">
-                    <span class="hamburger"></span>
-                </button>
 
-            </a>
-            <ul class="nav-links">
-                <li><a href="#home">Home</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
+<!-- ============ NAV ============ -->
+<nav class="nav">
+  <div class="wrap">
+    <a href="#home" class="nav-brand"><span class="dot"></span> Shuchismita Mallick</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">☰</button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#work">Flagship Work</a></li>
+      <li><a href="#roadmap">In Progress</a></li>
+      <li><a href="#journey">Journey</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#blog">Writing</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- ============ HERO ============ -->
+<header class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-hand">
+        <span>Curious mind.</span>
+        <span>Data driven.</span>
+        <span>Impact focused.</span>
+      </div>
+      <h1 class="hero-title">Shuchismita Mallick</h1>
+      <div class="hero-role">Data Scientist · Analytics · Agentic AI · Decision Intelligence</div>
+      <p class="hero-focus">4+ years turning data into decisions. My recent focus: building complete <b>decision-intelligence prototypes</b> — predictive models, explainability, and the UI around them — from data pipeline to working product.</p>
+
+      <div class="hero-pillars">
+        <div class="hero-pillar"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M3 17l6-6 4 4 8-8"/><path d="M15 7h6v6"/></svg> Turning Data Into Decisions</div>
+        <div class="hero-pillar"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M9 18h6M10 22h4M12 2a6 6 0 0 0-4 10.4c.6.6 1 1.4 1 2.3v.3h6v-.3c0-.9.4-1.7 1-2.3A6 6 0 0 0 12 2z"/></svg> Exploring AI With Purpose</div>
+        <div class="hero-pillar"><svg viewBox="0 0 24 24" fill="none" stroke-width="2"><path d="M16 18l6-6-6-6M8 6l-6 6 6 6"/></svg> Building, Learning &amp; Sharing</div>
+      </div>
+
+      <div class="hero-cta">
+        <a href="#work" class="btn btn-primary">View Flagship Work</a>
+        <a href="assets/Shuchismita_Mallick_Resume.pdf" class="btn btn-ghost">Download Résumé</a>
+        <div class="icon-row">
+          <a href="https://github.com/Shuchismita2000" title="GitHub" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 .5C5.7.5.7 5.6.7 12c0 5.1 3.3 9.4 7.9 11 .6.1.8-.3.8-.6v-2.2c-3.2.7-3.9-1.5-3.9-1.5-.5-1.3-1.3-1.7-1.3-1.7-1.1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.4 1 .1-.8.4-1.3.8-1.6-2.6-.3-5.3-1.3-5.3-5.7 0-1.3.4-2.3 1.2-3.1-.1-.3-.5-1.5.1-3.2 0 0 1-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.7.2 2.9.1 3.2.8.8 1.2 1.9 1.2 3.1 0 4.4-2.7 5.4-5.3 5.7.4.4.8 1.1.8 2.2v3.3c0 .3.2.7.8.6 4.6-1.6 7.9-5.9 7.9-11C23.3 5.6 18.3.5 12 .5z"/></svg></a>
+          <a href="https://www.linkedin.com/in/shuchismita-mallick/" title="LinkedIn" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M4.98 3.5A2.5 2.5 0 1 1 0 3.5a2.5 2.5 0 0 1 4.98 0zM.5 8.3h4.9V23H.5V8.3zm7.8 0h4.7v2h.1c.65-1.2 2.25-2.4 4.63-2.4 4.95 0 5.86 3.2 5.86 7.4V23h-4.9v-6.8c0-1.6 0-3.7-2.25-3.7-2.26 0-2.6 1.76-2.6 3.6V23h-4.9V8.3z"/></svg></a>
+          <a href="https://www.kaggle.com/" title="Kaggle — add your profile URL" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M18.8 20.6h-3.4c-.2 0-.4-.1-.5-.3l-4.6-6.1-1.5 1.4v4.4c0 .3-.2.5-.5.5H5.9c-.3 0-.5-.2-.5-.5V3.5c0-.3.2-.5.5-.5h2.4c.3 0 .5.2.5.5v10.4l5.3-5.5c.1-.2.3-.3.5-.3h3.5c.4 0 .6.5.3.8l-5.6 5.5 6.3 7.7c.3.3 0 .8-.4.8z"/></svg></a>
+          <a href="mailto:mallickshuchismita25@gmail.com" title="Email"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7L22 6"/></svg></a>
         </div>
-    </nav>
+      </div>
+    </div>
 
-    <section id="home" class="hero">
-        <div class="container hero-layout">
-            <!-- Left: Image + title + button -->
-            <div class="hero-image-section">
-                <div class="image-wrapper">
-                    <img src="assets\profile.jpeg" alt="Shuchismita Mallick" />
-                </div>
-              <h2 class="hero-title">Data Scientist(AI/ML)</h2>
-              <a href="assets\Shuchismita_Mallick_Resume.pdf" download class="btn-download">Download Resume</a>
-            </div>
-      
-          <!-- Middle: Greeting and Text -->
-          <div class="hero-text">
-            <div class="greeting">
-              <span class="wave">👋</span> Hi there! Welcome to my portfolio.
-            </div>
-            <h1>I'm Shuchismita Mallick</h1>
-            <p>I'm a passionate Data Scientist with 3 years of experience in transforming complex data into actionable insights. My journey in data science has been driven by a deep curiosity for understanding patterns and solving real-world problems. I specialize in machine learning, predictive modeling, and data-driven decision making, with a strong focus on developing end-to-end solutions that drive business value.</p>
+    <div class="hero-visual" aria-hidden="true">
+      <svg viewBox="0 0 420 320" xmlns="http://www.w3.org/2000/svg">
+        <g opacity=".35">
+          <circle cx="70" cy="250" r="2" fill="#9C90F0"/><circle cx="95" cy="230" r="2" fill="#9C90F0"/>
+          <circle cx="120" cy="245" r="1.6" fill="#9C90F0"/><circle cx="150" cy="205" r="2" fill="#9C90F0"/>
+          <circle cx="175" cy="220" r="1.6" fill="#9C90F0"/><circle cx="200" cy="175" r="2" fill="#9C90F0"/>
+          <circle cx="230" cy="185" r="1.6" fill="#9C90F0"/><circle cx="255" cy="140" r="2" fill="#9C90F0"/>
+          <circle cx="280" cy="150" r="1.6" fill="#9C90F0"/><circle cx="310" cy="105" r="2" fill="#9C90F0"/>
+          <circle cx="335" cy="115" r="1.6" fill="#9C90F0"/><circle cx="360" cy="70" r="2" fill="#9C90F0"/>
+        </g>
+        <path id="growthPath" d="M60 260 C 130 250, 160 190, 220 175 S 320 90, 370 55"
+          fill="none" stroke="#6C5CE0" stroke-width="3" stroke-linecap="round"/>
+        <circle cx="370" cy="55" r="6" fill="#6C5CE0"/>
+        <circle cx="370" cy="55" r="11" fill="none" stroke="#6C5CE0" stroke-width="1.5" opacity=".5"/>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<!-- ============ BIO ============ -->
+<section class="bio" id="about">
+  <div class="wrap bio-grid">
+    <div>
+      <div class="bio-photo"><img src="assets/profile.jpeg" alt="Shuchismita Mallick"></div>
+      <h2>About</h2>
+      <div class="bio-copy">
+        <p>I'm a Data Scientist with <b>4+ years</b> of experience turning messy, real-world data into decisions organizations can act on — across FMCG, retail, healthcare, fintech, and EdTech. I've shipped lead-scoring models for Fortune 500 clients across three continents, improved demand forecasting for a multinational consumer goods leader, and built agentic AI copilots that sit inside a client's actual workflow, not just a slide deck.</p>
+        <p>Lately, I spend a good chunk of my time outside work prototyping full decision-intelligence products end-to-end — marketing budget optimizers, credit-risk scoring, retention-intelligence dashboards — built on predictive ML with explainability, not agentic pipelines. Most ship as static sites with a small in-browser LLM for the Q&A layer, so nobody's waiting on a backend or an API key. I care less about reaching for the fanciest model and more about whether the thing actually gets used.</p>
+        <p>I'm also open to <b>freelance prototypes</b> — if you have a data problem and want to see a working product before committing to a full build, that's exactly the kind of thing I like to take on.</p>
+      </div>
+    </div>
+    <div class="capability-list">
+      <div class="capability">
+        <div class="capability-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 5c0-1.1 3.6-2 8-2s8 .9 8 2-3.6 2-8 2-8-.9-8-2z"/><path d="M4 5v14c0 1.1 3.6 2 8 2s8-.9 8-2V5M4 12c0 1.1 3.6 2 8 2s8-.9 8-2"/></svg></div>
+        <div><h4>Data</h4><p>SQL, PySpark and Databricks pipelines built for real production data, not just clean CSVs.</p></div>
+      </div>
+      <div class="capability">
+        <div class="capability-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M9 18h6M10 22h4M12 2a6 6 0 0 0-4 10.4c.6.6 1 1.4 1 2.3v.3h6v-.3c0-.9.4-1.7 1-2.3A6 6 0 0 0 12 2z"/></svg></div>
+        <div><h4>AI</h4><p>Classical ML, forecasting, and agentic/RAG systems — with SHAP explainability baked in, not bolted on.</p></div>
+      </div>
+      <div class="capability">
+        <div class="capability-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><path d="M4 20V10M12 20V4M20 20v-7"/></svg></div>
+        <div><h4>Insights</h4><p>Turning model output into a root-cause story a marketing or ops team can actually act on this week.</p></div>
+      </div>
+      <div class="capability">
+        <div class="capability-icon"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.2" fill="currentColor"/></svg></div>
+        <div><h4>Impact</h4><p>Measured in conversion lift, forecast accuracy, and stock-out reduction — not model accuracy alone.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLAGSHIP WORK ============ -->
+<section class="section section-alt" id="work">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Flagship Builds</div>
+      <h2>Prototypes built to prove what's possible</h2>
+      <p>Full-stack, end-to-end products — not notebooks. Each one ships with a working UI, an in-browser LLM where it makes sense, and no API key required to try it.</p>
+    </div>
+
+    <div class="flagship-list">
+
+      <!-- Customer Pulse -->
+      <article class="flagship-card reveal">
+        <div class="flagship-year">2026</div>
+        <div class="flagship-body">
+          <span class="flagship-tag">FMCG · Retention Intelligence</span>
+          <h3>Customer Pulse</h3>
+          <div class="flagship-metric">XGBoost churn classifier at AUC ≈ 0.98, with SHAP-backed root-cause analysis</div>
+          <p class="flagship-desc">An early-warning system for retention teams: flags accounts drifting toward churn before they leave, explains why in plain language, and points to a next-best action — packaged as a three-page static dashboard with a client-side LLM baked in.</p>
+          <div class="stack-chips">
+            <span class="chip">XGBoost</span><span class="chip">SHAP</span><span class="chip">Behavioral Feature Engineering</span><span class="chip">In-browser LLM</span><span class="chip">Static Dashboard</span>
           </div>
-      
-          <!-- Right: Skill Boxes -->
-          <div class="hero-skills about-details">
-            <div class="about-section">
-              <h3><i class="fas fa-code"></i> Programming</h3>
-                <p>Developing efficient data processing solutions with Python and SQL. </p>
-            </div>
-            <div class="about-section">
-                <h3><i class="fas fa-chart-line"></i> Analytics</h3>
-                <p>Transforming raw data into business insights. Expertise in E-Commerce & Retail-cpg domain. Learning Fintech and Insurance domain.</p>
-            </div>
-            <div class="about-section">
-              <h3><i class="fas fa-brain"></i> Machine Learning</h3>
-                <p>Experienced in Machine Learning techniques including Regression, Classification, Deep Learning, Feature Engineering, and Model Evaluation.</p>
-            </div>
-          
-            <div class="about-section">
-              <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
-                <p>Skilled in using Tools & Platforms such as Azure ML Studio, Databricks, AI Foundry, MLflow, and SSMS.</p>
-            </div>
-          
-            
-          
-      </section>
-      
-
-    <section id="projects" class="projects">
-        <div class="container">
-            <h2>Projects</h2>
-            <div class="project-subsection">
-                <h3 class="project-subheading">Impactful Projects Delivered at Work in Fractal Analytics</h3>
-                <div class="project-grid">
-                    <!-- Fractal Office Projects -->
-                    <div class="project-card" data-project="fmcg1">
-                        <img src="assets/project-office7.png" alt="Customer Journey Optimization Lead Scoring Model" class="project-thumb" />
-                        <h4>Customer Journey Optimization – Lead Scoring Model</h4>
-                        <p>Designed and deployed a machine learning-based lead scoring model on Databricks for a global FMCG enterprise across South Africa, Indonesia, and Egypt. Optimized customer journey touchpoints by identifying high-conversion prospects and enabling data-driven marketing strategies across multiple emerging markets.</p>
-                        <div class="project-tags">
-                            <span>Databricks</span>
-                            <span>PySpark</span>
-                            <span>Machine Learning</span>
-                            <span>Customer Analytics</span>
-                            <span>Feature Engineering</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="fmcg2">
-                        <img src="assets/project-office8.png" alt="Time Series Sales Forecasting Optimization" class="project-thumb" />
-                        <h4>Advanced Time Series Sales Forecasting</h4>
-                        <p>Enhanced univariate and multivariate time series models to forecast dollar sales, equivalent sales, and unit sales for a multinational consumer goods leader in North America. Improved forecast accuracy through advanced statistical modeling and feature optimization to support demand planning and revenue strategy.</p>
-                        <div class="project-tags">
-                          <span>Time Series</span>
-                          <span>ARIMA / SARIMA</span>
-                          <span>Multivariate Modeling</span>
-                         <span>Databricks</span>
-                         <span>Forecasting</span>
-                        </div>
-                    </div>
-             
-                </div>
-            </div>
-            <div class="project-subsection">
-                <h3 class="project-subheading">Impactful Projects Delivered at Work in Enqurious</h3>
-                <div class="project-grid">
-                    <!-- Enqurious Office Projects -->
-                    <div class="project-card" data-project="office6">
-                        <img src="assets\project-office6.png" alt="Predictive Maintenance for Manufacturing Equipment" class="project-thumb" />
-                        <h4>Autonomous Agentic AI Solution for Healthcare</h4>
-                        <p>Developed an autonomous agentic AI solution for healthcare that automates data retrieval and generates real-time insights to enhance decision-making and operational efficiency for hospital staff.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Time Series</span>
-                            <span>Azure ML Studio</span>
-                        </div>
-                    </div>
-
-                    <div class="project-card" data-project="office3">
-                        <img src="assets\project-office3.png" alt="Predicting Optimal Channel for New Product Launch" class="project-thumb" />
-                        <h4>Predicting Optimal Channel for New Product Launch</h4>
-                        <p>Built predictive models to identify the most effective marketing channels for launching new products, improving launch success rates.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Classification</span>
-                            <span>Databricks</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="office4">
-                        <img src="assets/project-office4.png" alt="AI Agent for Content Inventory Exploration" class="project-thumb" />
-                        <h4>POC: AI Agent for Content Inventory Exploration</h4>
-                        <p>Developed a proof-of-concept AI agent to help the Content Development Team explore and analyze content inventory efficiently.</p>
-                        <div class="project-tags">
-                            <span>AI Agent</span>
-                            <span>Content Team</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="office2">
-                        <img src="assets\project-office2.png" alt="Dynamic Pricing for Optimizing Pricing Strategy" class="project-thumb" />
-                        <h4>Dynamic Pricing for Optimizing Pricing Strategy</h4>
-                        <p>Implemented dynamic pricing models to optimize product pricing strategies, increasing revenue and market competitiveness.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Azure ML Studio</span>
-                            <span>Pricing</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="office5">
-                        <img src="assets\project-office5.png" alt="AI Agent for Reporting to Client" class="project-thumb" />
-                        <h4>POC: AI Agent for Reporting to Client</h4>
-                        <p>Created a proof-of-concept AI agent for the Ops Team to automate and streamline client reporting processes.</p>
-                        <div class="project-tags">
-                            <span>AI Agent</span>
-                            <span>Ops Team</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="office1">
-                        <img src="assets\project-office1.png" alt="Market Mix Modeling for Optimized Budget Allocation" class="project-thumb" />
-                        <h4>Market Mix Modeling for Optimized Budget Allocation</h4>
-                        <p>Developed a market mix model to optimize marketing budget allocation across channels, maximizing ROI and efficiency.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Azure ML Studio</span>
-                            <span>Regression</span>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-            <div class="project-subsection">
-                <h3 class="project-subheading">Passion Projects & Personal Growth</h3>
-                <div class="project-grid">
-                    <!-- Self-Learning Projects -->
-                    <div class="project-card" data-project="self1">
-                        <img src="assets/project-self1.png" alt="Market Mix Modeling" class="project-thumb" />
-                        <h4>Market Mix Modeling</h4>
-                        <p>Built a market mix model to analyze and optimize marketing spend across multiple channels for improved ROI.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Marketing Analytics</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="self2">
-                        <img src="assets/project-self2.png" alt="Water Profiling Score Project" class="project-thumb" />
-                        <h4>Water Profiling Score Project</h4>
-                        <p>Developed a scoring system to profile water quality using data analysis and machine learning techniques.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Data Science</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="self3">
-                        <img src="assets\project-self3.png" alt="Book Recommendation (RAG Chain)" class="project-thumb" />
-                        <h4>Book Recommendation (RAG Chain)</h4>
-                        <p>Implemented a book recommendation system using Retrieval-Augmented Generation (RAG) and NLP techniques.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>RAG</span>
-                            <span>NLP</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="self4">
-                        <img src="assets\project-self4.png" alt="Customer Churn Prediction" class="project-thumb" />
-                        <h4>Customer Churn Prediction</h4>
-                        <p>Created predictive models to identify customers at risk of churning, enabling targeted retention strategies.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>Classification</span>
-                        </div>
-                    </div>
-                    <div class="project-card" data-project="self5">
-                        <img src="assets/project-self5.png" alt="Customer Purchase Behavior" class="project-thumb" />
-                        <h4>Customer Purchase Behavior</h4>
-                        <p>Analyzed and modeled customer purchase patterns to uncover insights and drive business growth.</p>
-                        <div class="project-tags">
-                            <span>Python</span>
-                            <span>EDA</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          <div class="flagship-links">
+            <a href="#" class="link-btn disabled" title="Link coming soon">Live Demo — coming soon</a>
+            <a href="#" class="link-btn disabled" title="Link coming soon">GitHub — coming soon</a>
+          </div>
         </div>
-        <!-- Project Modal -->
-        <div id="project-modal" class="project-modal">
-            <div class="modal-content">
-                <span class="modal-close">&times;</span>
-                <div class="modal-top-section">
-                    <h4 class="modal-title"></h4>
-                    <img src="" alt="Project Image" class="modal-img" />
-                </div>
-                <div class="modal-details"></div>
-            </div>
-        </div>
-    </section>
+        <div class="status-col"><span class="status status-live">Live · Prototype</span></div>
+      </article>
 
-    <section id="experience" class="experience">
-        <div class="container">
-            <h2>Experience</h2>
-            <div class="timeline">
-                <div class="timeline-item animate-fadein">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Scientist <span class="company">Fractal Analytics</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Aug'25 – Present</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Gurgaon, India</span>
-                        </div>
-                        <div class="exp-tech"><strong>Tech Stack:</strong> <span>Python, Pyspark, Regression, Time Series Forecasting, Azure Databricks</span></div>
-                        <ul class="exp-bullets">
-                            <li>Customer Journey Optimization – Lead Scoring Model:Designed a lead scoring model in Databricks for a Fortune 500 global FMCG company across South Africa, Indonesia, and Egypt.</li> 
-                            <li>Improved univariate and multivariate time series forecasting models to predict dollar sales, equivalent sales, and unit sales for a Fortune 500 global FMCG enterprise in North America.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item animate-fadein">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Scientist <span class="company">Enquorious</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> July'23 – July'25</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Bangalore, India – WFH</span>
-                        </div>
-                        <div class="exp-tech"><strong>Tech Stack:</strong> <span>Python, SQL, Regression, Classification, MLops, Azure Databricks, Azure ML Studio, Azure AI Foundry</span></div>
-                        <ul class="exp-bullets">
-                            <li>Led the creation and execution of data science projects, constructing proofs of concept (POC) tailored for EdTech solutions and mentoring aspiring decision scientists.</li>
-                            <li>Conducted data analysis and used statistical models and machine learning techniques to evaluate channel effectiveness and develop strategies for redistributing budgets, maximizing sales, and profitability.</li>
-                            <li> Developed and deployed machine learning models to Databricks endpoints for real-time customer risk prediction.</li>
-                            <li>Prepared end-to-end solutions in Azure ML Studio, focusing on Market-mix modeling, dynamic pricing for price optimization, and optimal channel prediction for new product launches.</li>
-                            <li>Developed Agentic-RAG Chat-bot utilizing AzureAIFoundry,AI Search, connecting with Unity Catalog in the Health Care domain based on Non-clinical Metrics, whose dataset was curated by me</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item animate-fadein" style="animation-delay:0.1s;">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Analyst <span class="company">Enquorious</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> July'22 – June'23</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Bangalore, India – WFH</span>
-                        </div>
-                        <div class="exp-tech"><strong>Tech Stack:</strong> <span>Python, SQL, PowerBI</span></div>
-                        <ul class="exp-bullets">
-                            <li>Created multiple data analysis projects in Python, SQL, and Power BI across various domains to address the company's needs.</li>
-                            <li>Conducted live sessions with clients to deliver hands-on learning experiences, enabling them to enhance their skills effectively.</li>
-                            <li>Designed and implemented deep learning models with a computer vision pipeline using CNNs to classify traffic signs from image datasets, advancing automated driving systems.</li>
-                            <li>Implemented uplift modeling techniques to predict the incremental impact of marketing strategies, enabling personalized campaigns by identifying customers likely to respond positively.</li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="timeline-item animate-fadein" style="animation-delay:0.2s;">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>Data Analyst Intern <span class="company">Enquorious</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> April'22 – June'22</span>
-                            <span><i class="fas fa-map-marker-alt"></i> Bangalore, India – WFH</span>
-                        </div>
-                        <div class="exp-tech"><strong>Tech Stack:</strong> <span>Python, SQL</span></div>
-                        <ul class="exp-bullets">
-                            <li>Conducted live sessions with clients by creating hands-on projects in Python and MySQL, fostering an interactive and practical learning experience.</li>
-                            <li>Designed scenarios based on e-commerce and sports domains to enhance client understanding of data processing and wrangling techniques.</li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
+      <!-- SpendLens -->
+      <article class="flagship-card reveal">
+        <div class="flagship-year">2026</div>
+        <div class="flagship-body">
+          <span class="flagship-tag">D2C Skincare · Marketing Mix Modeling</span>
+          <h3>SpendLens</h3>
+          <div class="flagship-metric">Hill-saturation MMM + constrained budget optimizer for a fictional D2C skincare brand</div>
+          <p class="flagship-desc">A marketing mix modeling copilot that goes past "what happened to spend" into "what to do about it" — Hill saturation curves and ElasticNet response modeling feed a constrained optimizer that reallocates budget to the highest-ROI channels. Fully static, three-page site.</p>
+          <div class="stack-chips">
+            <span class="chip">Hill Saturation</span><span class="chip">ElasticNet</span><span class="chip">Budget Optimization</span><span class="chip">In-browser LLM</span><span class="chip">Static Site</span>
+          </div>
+          <div class="flagship-links">
+            <a href="https://shuchismita2000.github.io/SpendLens/" class="link-btn" target="_blank" rel="noopener">Live Demo ↗</a>
+            <a href="https://github.com/Shuchismita2000/SpendLens" class="link-btn" target="_blank" rel="noopener">GitHub ↗</a>
+          </div>
         </div>
-    </section>
-    <section id="education" class="education">
-        <div class="container">
-            <h2>Education</h2>
-            <div class="timeline">
-                <div class="timeline-item animate-fadein">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>M.Sc. IT(Aritificial Intelligence) <span class="company">West Bengal University of Technology</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Oct'2020 – Jun'2022</span>
-                            <span><i class="fas fa-map-marker-alt"></i> West Bengal, India</span>
-                        </div>
-                </div>
-                <div class="timeline-item animate-fadein">
-                    <div class="timeline-dot"></div>
-                    <div class="timeline-content">
-                        <h3>B.Sc. Hons. Mathematics <span class="company">Hooghly Mohsin College</span></h3>
-                        <div class="exp-meta">
-                            <span><i class="fas fa-calendar-alt"></i> Aug'2017 – Oct'2020</span>
-                            <span><i class="fas fa-map-marker-alt"></i> West Bengal, India</span>
-                        </div>
-                </div>
-            </div>
-        </div>
-    </section>
+        <div class="status-col"><span class="status status-live">Live · Prototype</span></div>
+      </article>
 
-    <section id="contact" class="contact">
-        <div class="container">
-            <h2>Get in Touch</h2>
-            <div class="contact-icons">
-                <a href="mailto:mallickshuchismita25@gmail.com" class="contact-icon-link" title="Email" target="_blank" rel="noopener">
-                    <span class="contact-icon"><i class="fas fa-envelope"></i></span>
-                </a>
-                <a href="https://www.linkedin.com/in/shuchismita-mallick/" class="contact-icon-link" title="LinkedIn" target="_blank" rel="noopener">
-                    <span class="contact-icon"><i class="fab fa-linkedin-in"></i></span>
-                </a>
-                <a href="https://github.com/Shuchismita2000" class="contact-icon-link" title="GitHub" target="_blank" rel="noopener">
-                    <span class="contact-icon"><i class="fab fa-github"></i></span>
-                </a>
-            </div>
+      <!-- Artha -->
+      <article class="flagship-card reveal">
+        <div class="flagship-year">2026</div>
+        <div class="flagship-body">
+          <span class="flagship-tag">FinTech · Retail Lending Intelligence</span>
+          <h3>Artha</h3>
+          <div class="flagship-metric">Top-20% priority leads convert at 50.8%, vs. a 31.1% baseline</div>
+          <p class="flagship-desc">Built for IDBI Innovate 2026 — a composite Lead Priority Score blending income/repayment capacity (XGBoost) with loan-intent propensity (LightGBM), fully explained with SHAP, with a client-side chatbot so underwriting teams can interrogate any lead's score directly.</p>
+          <div class="stack-chips">
+            <span class="chip">XGBoost</span><span class="chip">LightGBM</span><span class="chip">SHAP</span><span class="chip">Transformers.js</span><span class="chip">Composite Scoring</span>
+          </div>
+          <div class="flagship-links">
+            <a href="#" class="link-btn disabled" title="Link coming soon">Live Demo — coming soon</a>
+            <a href="#" class="link-btn disabled" title="Link coming soon">GitHub — coming soon</a>
+          </div>
         </div>
-    </section>
+        <div class="status-col"><span class="status status-live">Live · Hackathon Build</span></div>
+      </article>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2024 Data Science Portfolio. All rights reserved.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ IN PROGRESS / ROADMAP ============ -->
+<section class="section" id="roadmap">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">In Progress</div>
+      <h2>What's being built right now</h2>
+      <p>The next two flagship builds — earlier stage, so shown here as a roadmap rather than a finished demo.</p>
+    </div>
+    <div class="roadmap-grid">
+      <div class="roadmap-card reveal">
+        <span class="flagship-tag">Dairy Supply Chain</span>
+        <h3>DairyFlow AI</h3>
+        <p class="roadmap-desc">A demand-forecasting and inventory-planning platform for a dairy distribution network — aiming to cut stock-outs and overstock with a multi-model time-series ensemble and real-time supply-chain views.</p>
+        <div class="stack-chips">
+          <span class="chip">Prophet</span><span class="chip">LightGBM</span><span class="chip">Time-Series Ensembling</span><span class="chip">Inventory Optimization</span>
         </div>
-    </footer>
+        <span class="status status-progress">In Progress</span>
+      </div>
+      <div class="roadmap-card reveal">
+        <span class="flagship-tag">Retail Operations</span>
+        <h3>Vyapar</h3>
+        <p class="roadmap-desc">The retail counterpart to SpendLens — one decision engine spanning demand forecasting, inventory planning, and dynamic pricing at the store/SKU level, built to plug into a real data pipeline rather than a static demo.</p>
+        <div class="stack-chips">
+          <span class="chip">Forecasting Ensemble</span><span class="chip">Dynamic Pricing</span><span class="chip">Data Pipelines</span><span class="chip">Decision Engine</span>
+        </div>
+        <span class="status status-progress">In Progress</span>
+      </div>
+    </div>
+  </div>
+</section>
 
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
-    <script src="script.js"></script>
+<!-- ============ CAREER JOURNEY ============ -->
+<section class="section section-alt" id="journey">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Career Journey</div>
+      <h2>Four years, growing scope</h2>
+      <p>Year tags below are best-estimate placeholders from role timelines — swap in exact project years any time to make the growth trajectory precise.</p>
+    </div>
+
+    <div class="timeline">
+
+      <!-- Fractal -->
+      <div class="tl-role reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-role-head"><h3>Data Scientist — Fractal Analytics</h3><span class="tl-dates">Aug '25 – Present · Gurgaon, India</span></div>
+        <div class="tl-company">Fractal Analytics</div>
+        <div class="tl-stack">Python · PySpark · Regression · Time Series Forecasting · Azure Databricks</div>
+        <div class="tl-projects">
+          <div class="tl-project">
+            <span class="yr">2025 – Ongoing</span>
+            <h4>Advanced Time Series Sales Forecasting <span class="chip" style="margin-left:6px;">Ongoing</span></h4>
+            <p>Rebuilding univariate and multivariate forecasting pipelines for dollar, equivalent, and unit sales for a multinational consumer goods leader in North America. Currently the core project I'm driving:</p>
+            <ul class="tl-bullets" style="margin:8px 0 10px;">
+              <li>Cut end-to-end pipeline execution time from <b>8 hours to ~1 hour</b> by re-engineering the Databricks workflow.</li>
+              <li>Improved forecast accuracy so <b>MAPE sits under 10%</b> for most brands, supporting tighter demand planning and revenue commitments.</li>
+              <li>Own the full loop — data prep, model iteration (ARIMA/SARIMA + multivariate approaches), and validation across brands.</li>
+            </ul>
+            <span class="chip">ARIMA/SARIMA</span> <span class="chip">Multivariate Modeling</span> <span class="chip">Pipeline Optimization</span> <span class="chip">Databricks</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2025</span>
+            <h4>Customer Journey Optimization — Lead Scoring Model <span class="chip" style="margin-left:6px;">POC</span></h4>
+            <p>Designed and deployed a POC lead-scoring model on Databricks for a Fortune 500 global FMCG company across South Africa, Indonesia, and Egypt — identifying high-conversion prospects to enable data-driven marketing across emerging markets.</p>
+            <span class="chip">Databricks</span> <span class="chip">PySpark</span> <span class="chip">Feature Engineering</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enqurious Data Scientist -->
+      <div class="tl-role reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-role-head"><h3>Data Scientist — Enqurious</h3><span class="tl-dates">Jul '23 – Jul '25 · Bangalore, India (WFH)</span></div>
+        <div class="tl-company">Enqurious</div>
+        <div class="tl-stack">Python · SQL · Regression · Classification · MLOps · Azure Databricks · Azure ML Studio · Azure AI Foundry</div>
+        <ul class="tl-bullets" style="margin-bottom:16px;">
+          <li>Led creation and execution of data science POCs tailored for EdTech solutions, and mentored aspiring decision scientists.</li>
+          <li>Developed and deployed ML models to Databricks endpoints for real-time customer risk prediction.</li>
+        </ul>
+        <div class="tl-projects">
+          <div class="tl-project">
+            <span class="yr">2025</span>
+            <h4>Agentic-RAG Healthcare Chatbot</h4>
+            <p>Built an autonomous agentic AI solution for healthcare using Azure AI Foundry + AI Search, connected to Unity Catalog, working over a non-clinical metrics dataset I curated myself.</p>
+            <span class="chip">Agentic RAG</span> <span class="chip">Azure AI Foundry</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2024</span>
+            <h4>Predicting Optimal Channel for New Product Launch</h4>
+            <p>Built predictive models to identify the most effective marketing channels for launching new products, improving launch success rates.</p>
+            <span class="chip">Classification</span> <span class="chip">Databricks</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2024</span>
+            <h4>POC: AI Agent for Content Inventory Exploration</h4>
+            <p>Developed a proof-of-concept AI agent to help the Content Development Team explore and analyze content inventory efficiently.</p>
+            <span class="chip">AI Agent</span> <span class="chip">Content Team</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2024</span>
+            <h4>Dynamic Pricing for Optimizing Pricing Strategy</h4>
+            <p>Implemented dynamic pricing models to optimize product pricing strategy, increasing revenue and market competitiveness.</p>
+            <span class="chip">Azure ML Studio</span> <span class="chip">Pricing</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2024</span>
+            <h4>POC: AI Agent for Client Reporting</h4>
+            <p>Created a proof-of-concept AI agent for the Ops Team to automate and streamline client reporting processes.</p>
+            <span class="chip">AI Agent</span> <span class="chip">Ops Team</span>
+          </div>
+          <div class="tl-project">
+            <span class="yr">2023</span>
+            <h4>Market Mix Modeling for Budget Allocation</h4>
+            <p>Developed a market mix model to optimize marketing budget allocation across channels, maximizing ROI and efficiency.</p>
+            <span class="chip">Regression</span> <span class="chip">Azure ML Studio</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Enqurious Data Analyst -->
+      <div class="tl-role reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-role-head"><h3>Data Analyst — Enqurious</h3><span class="tl-dates">Jul '22 – Jun '23 · Bangalore, India (WFH)</span></div>
+        <div class="tl-company">Enqurious</div>
+        <div class="tl-stack">Python · SQL · Power BI</div>
+        <ul class="tl-bullets">
+          <li>Created multiple data analysis projects in Python, SQL, and Power BI across various domains to address company needs.</li>
+          <li>Ran live client sessions delivering hands-on learning to help clients build practical data skills.</li>
+          <li>Designed a computer-vision pipeline using CNNs to classify traffic signs from image datasets, for automated driving systems.</li>
+          <li>Implemented uplift modeling to predict the incremental impact of marketing strategies, enabling personalized campaigns.</li>
+        </ul>
+      </div>
+
+      <!-- Enqurious Intern -->
+      <div class="tl-role reveal">
+        <div class="tl-dot"></div>
+        <div class="tl-role-head"><h3>Data Analyst Intern — Enqurious</h3><span class="tl-dates">Apr '22 – Jun '22 · Bangalore, India (WFH)</span></div>
+        <div class="tl-company">Enqurious</div>
+        <div class="tl-stack">Python · SQL</div>
+        <ul class="tl-bullets">
+          <li>Ran live client sessions building hands-on projects in Python and MySQL for an interactive learning experience.</li>
+          <li>Designed e-commerce and sports-domain scenarios to teach data processing and wrangling techniques.</li>
+        </ul>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============ PASSION PROJECTS ============ -->
+<section class="section" id="passion">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Passion Projects</div>
+      <h2>Personal growth, outside the day job</h2>
+      <p>Add the exact year each one was built to keep the growth story precise — placeholders are marked below.</p>
+    </div>
+    <div class="passion-grid">
+      <div class="passion-card reveal">
+        <img src="assets/project-self1.png" alt="Market Mix Modeling">
+        <div class="passion-card-body">
+          <span class="passion-yr">20XX</span>
+          <h4>Market Mix Modeling</h4>
+          <p>Built a market mix model to analyze and optimize marketing spend across multiple channels for improved ROI.</p>
+          <span class="chip">Python</span> <span class="chip">Marketing Analytics</span>
+        </div>
+      </div>
+      <div class="passion-card reveal">
+        <img src="assets/project-self2.png" alt="Water Profiling Score Project">
+        <div class="passion-card-body">
+          <span class="passion-yr">20XX</span>
+          <h4>Water Profiling Score</h4>
+          <p>Developed a scoring system to profile water quality using data analysis and machine learning techniques.</p>
+          <span class="chip">Python</span> <span class="chip">Data Science</span>
+        </div>
+      </div>
+      <div class="passion-card reveal">
+        <img src="assets/project-self3.png" alt="Book Recommendation RAG Chain">
+        <div class="passion-card-body">
+          <span class="passion-yr">20XX</span>
+          <h4>Book Recommendation (RAG Chain)</h4>
+          <p>Implemented a book recommendation system using Retrieval-Augmented Generation and NLP techniques.</p>
+          <span class="chip">Python</span> <span class="chip">RAG</span> <span class="chip">NLP</span>
+        </div>
+      </div>
+      <div class="passion-card reveal">
+        <img src="assets/project-self4.png" alt="Customer Churn Prediction">
+        <div class="passion-card-body">
+          <span class="passion-yr">20XX</span>
+          <h4>Customer Churn Prediction</h4>
+          <p>Created predictive models to identify customers at risk of churning, enabling targeted retention strategies.</p>
+          <span class="chip">Python</span> <span class="chip">Classification</span>
+        </div>
+      </div>
+      <div class="passion-card reveal">
+        <img src="assets/project-self5.png" alt="Customer Purchase Behavior">
+        <div class="passion-card-body">
+          <span class="passion-yr">20XX</span>
+          <h4>Customer Purchase Behavior</h4>
+          <p>Analyzed and modeled customer purchase patterns to uncover insights and drive business growth.</p>
+          <span class="chip">Python</span> <span class="chip">EDA</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EDUCATION ============ -->
+<section class="section section-alt" id="education">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Education</div>
+      <h2>Foundations</h2>
+    </div>
+    <div class="edu-grid">
+      <div class="edu-card reveal">
+        <span class="tl-dates">Oct '20 – Jun '22 · West Bengal, India</span>
+        <h3>M.Sc. IT (Artificial Intelligence)</h3>
+        <p style="color:var(--ink-soft); font-size:14.5px;">West Bengal University of Technology</p>
+      </div>
+      <div class="edu-card reveal">
+        <span class="tl-dates">Aug '17 – Oct '20 · West Bengal, India</span>
+        <h3>B.Sc. Hons. Mathematics</h3>
+        <p style="color:var(--ink-soft); font-size:14.5px;">Hooghly Mohsin College</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ BLOG ============ -->
+<section class="section" id="blog">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div class="eyebrow">Writing</div>
+      <h2>Notes from the build</h2>
+      <p>Business-problem-framed pieces on the projects above — send over titles, links, or drafts any time and they'll slot in here.</p>
+    </div>
+    <div class="blog-grid">
+      <article class="blog-card reveal">
+        <span class="blog-tag">DRAFT · ADD TITLE</span>
+        <h3>Post title goes here</h3>
+        <p>Short excerpt goes here — one or two sentences on the business problem the post walks through.</p>
+        <div class="blog-meta"><span>Add date</span><span>Add read time</span></div>
+      </article>
+      <article class="blog-card reveal">
+        <span class="blog-tag">DRAFT · ADD TITLE</span>
+        <h3>Post title goes here</h3>
+        <p>Short excerpt goes here — one or two sentences on the business problem the post walks through.</p>
+        <div class="blog-meta"><span>Add date</span><span>Add read time</span></div>
+      </article>
+      <article class="blog-card placeholder reveal">
+        <div><div class="plus">+</div><p>More posts land here as you send them over.</p></div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER / CONTACT ============ -->
+<footer class="footer" id="contact">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <h2>Let's build something.</h2>
+        <p>Open to full-time roles, freelance prototypes, and paid technical writing. Based in Delhi, India — happy to work remote.</p>
+      </div>
+      <div class="footer-contact">
+        <a href="mailto:mallickshuchismita25@gmail.com"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M2 6l10 7L22 6"/></svg> mallickshuchismita25@gmail.com</a>
+        <a href="https://www.linkedin.com/in/shuchismita-mallick/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><rect x="2" y="9" width="4" height="12"/><circle cx="4" cy="4" r="2"/><path d="M10 21v-7a3 3 0 0 1 6 0v7M10 12v-1"/></svg> LinkedIn — shuchismita-mallick</a>
+        <a href="https://github.com/Shuchismita2000" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 2a10 10 0 0 0-3.16 19.5c.5.1.68-.22.68-.48v-1.7c-2.78.6-3.37-1.34-3.37-1.34-.46-1.16-1.11-1.47-1.11-1.47-.9-.62.07-.6.07-.6 1 .07 1.53 1.03 1.53 1.03.89 1.52 2.34 1.08 2.91.83.09-.65.35-1.08.63-1.33-2.22-.25-4.56-1.11-4.56-4.94 0-1.1.39-1.99 1.03-2.69-.1-.25-.45-1.27.1-2.64 0 0 .84-.27 2.75 1.02a9.6 9.6 0 0 1 5 0c1.9-1.29 2.75-1.02 2.75-1.02.55 1.37.2 2.39.1 2.64.64.7 1.03 1.59 1.03 2.69 0 3.84-2.34 4.68-4.57 4.93.36.31.68.92.68 1.85v2.75c0 .26.18.58.69.48A10 10 0 0 0 12 2z"/></svg> GitHub — Shuchismita2000</a>
+        <a href="https://www.kaggle.com/" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4v16M9 4v16M4 12l10-8M9 12l10 8"/></svg> Kaggle — add profile URL</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Shuchismita Mallick.</span>
+      <span>Built with intent, one prototype at a time.</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
 </body>
-</html> 
+</html>
